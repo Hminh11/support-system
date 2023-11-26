@@ -1,0 +1,93 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Sep 12, 2023, 9:21:33 PM
+    Author     : Admin
+*/
+/* Set the left and right margins of elements with the class "body" to 0 */
+.body{
+    left: 0;
+    right: 0;
+}
+
+/* Style the header element */
+.content{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: 35px;
+}
+
+/* Add a blue border bottom to anchor elements inside the header */
+.content a{
+    border-bottom: 2px solid #00B98E;
+}
+
+/* Style elements with class "img1", "img2", "img3", "img4", "img5", and "img6" */
+.img1,.img2,.img3,.img4,.img5,.img6{
+    padding-top: 10px;
+    padding-left: 10px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+/* Style elements with class "anh1", "anh2", and "anh3" */
+.anh1,.anh2,.anh3{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Style overlay text elements */
+.overlay-text {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    right: 10px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease; 
+    width: 100%;
+}
+
+/* Show overlay text when hovering over elements with class "img1" */
+.img1:hover .overlay-text {
+    opacity: 1; 
+}
+
+/* Show overlay text when hovering over elements with class "img2" */
+.img2:hover .overlay-text {
+    opacity: 1; 
+}
+
+/* Show overlay text when hovering over elements with class "img3" */
+.img3:hover .overlay-text {
+    opacity: 1; 
+}
+
+/* Show overlay text when hovering over elements with class "img4" */
+.img4:hover .overlay-text {
+    opacity: 1; 
+}
+
+/* Show overlay text when hovering over elements with class "img5" */
+.img5:hover .overlay-text {
+    opacity: 1; 
+}
+
+/* Show overlay text when hovering over elements with class "img6" */
+.img6:hover .overlay-text {
+    opacity: 1; 
+}

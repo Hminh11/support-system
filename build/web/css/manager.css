@@ -1,0 +1,136 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Sep 18, 2023, 2:35:05 AM
+    Author     : Admin
+*/
+
+
+.body{
+    background-color: #EFFDF5;
+    display: flex;
+    flex-direction: column;
+
+}
+.Bdy{
+    padding: 3%;
+    font-family: sans-serif;
+    background-color: #EFFDF5;
+}
+.Bdy-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.table-bdy{
+    background-color: #e0e0e0;
+    margin: 3%;
+    border-radius: 5px;
+
+}
+.Bdy-choose{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+.Bdy-choose input{
+    background-color: #e0e0e0;
+    border-radius: 5px
+}
+.DetailSc span{
+    font-size: 20px;
+    padding: 30px;
+}
+.bdy-end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bdy-endButton{
+    display: flex;
+    justify-content: right;
+}
+.bdy-end button{
+    padding: 2px;
+    padding-right: 6px;
+    padding-left: 6px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #00B98E;
+    border-color: #00B98E;
+}
+.Button-edit{
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #00B98E;
+    border-color: #00B98E;
+}
+.modal-content {
+    width: 80%;
+    background-color: #fafaf5;/* Điều chỉnh chiều rộng của modal theo ý muốn */
+    /* Thêm các thuộc tính CSS khác tùy chỉnh cho modal của bạn */
+}
+.modal-header{
+    text-align: center;
+}
+/* CSS để trang trí và căn chỉnh phần HTML */
+.mc1 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* Để modal content chiếm toàn bộ chiều cao của màn hình */
+}
+.modal-header h4{
+    background-color: #d9d9d9;
+    width: 50%;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 50px;
+}
+.custom-file {
+    display: flex;
+    background-color: #d9d9d9;
+    align-items: end;
+    padding-left: 20px;
+    line-height: 35px;
+}
+
+.custom-file-input {
+    flex-grow: 1;
+    background-color: #d9d9d9;
+    border: none;
+    color: #000;
+    padding: 10px;
+}
+.Note-warning{
+    margin: 0;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.file-description {
+    margin-top: 30px;
+    display: flex;
+    background-color: #d9d9d9;
+    align-items: end;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+.file-description a{
+    padding-left: 20px;
+    line-height: 35px;
+}
+.form-group .h4{
+    font-size: 20px;
+    display: inline-block;
+    color: #333;
+    margin: 5px 0;
+    font-weight: bold;
+}
+

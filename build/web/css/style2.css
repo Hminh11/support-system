@@ -1,0 +1,104 @@
+/* Thêm màu sắc và hình nền */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg'); /* Thay đổi đường dẫn hình nền */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333; /* Màu chữ chính */
+}
+
+.contact-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+    background-color: rgba(255, 255, 255, 0.9); /* Màu nền với độ trong suốt */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-align: left;
+    color: #333; /* Màu chữ trong container */
+}
+
+.contact-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #007BFF; /* Màu chữ tiêu đề */
+}
+
+/* Tùy chỉnh màu nút gửi */
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Màu nút hover */
+}
+
+/* Hiệu ứng hover cho liên kết Email */
+a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+/* Thêm đường viền cho input và textarea */
+/* Thêm đường viền cho input và textarea */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none; /* Loại bỏ đường viền mặc định khi focus */
+    transition: border-color 0.3s;
+}
+
+/* Thay đổi màu viền khi focus */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+    border-color: #007BFF;
+}
+
+/* Tùy chỉnh nút gửi */
+button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Hiệu ứng hover cho liên kết Email */
+a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/* Định dạng cho phần hiển thị kết quả */
+#response {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: #333;
+}
+

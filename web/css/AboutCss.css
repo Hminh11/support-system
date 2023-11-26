@@ -1,0 +1,57 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Sep 12, 2023, 12:25:55 AM
+    Author     : Admin
+*/
+.BigBdy{
+    
+}
+.BdyAll{
+    background-color: white;
+    width: 100%;
+}
+.BdyLeft{
+    width: 40%;
+    padding: 76px;
+}
+.BdyLeft img{
+    width: 115%;
+    padding-left: 0px;
+}
+.BdyRight{
+    width: 60%;
+    padding: 76px;
+    padding-left: 1px;
+}
+.BdyRight h1{
+    font-size: 50px;
+    margin: 0px;
+    text-align: end;
+    background-color: #00B98E;
+    color: white;
+    padding: 17px;
+}
+.BdyRight p {
+    text-align: justify;
+    padding: 4px;
+    margin: 0px;
+    font-size: 16px;
+}
+.BdyRight h3{
+    font-size: 21px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.BdyRight h2{
+    font-size: 22px;
+    margin-top: 31px;
+    margin-bottom: 10px;
+}
+.BdyRightSmall{
+    padding: 22px;
+    padding-right: 0px;
+    
+}
